@@ -1,0 +1,76 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#game-container {
+    text-align: center;
+    background-color: #333;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #1abc9c;
+}
+
+p {
+    font-size: 16px;
+    color: #ecf0f1;
+}
+
+#clue {
+    margin-bottom: 20px;
+    color: #e67e22;
+}
+
+#word-display {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #3498db;
+}
+
+#attempts {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #e74c3c;
+}
+
+#guess-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: #333;
+    background-color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#message {
+    font-size: 16px;
+    color: #e74c3c;
+    margin-top: 20px;
+}
